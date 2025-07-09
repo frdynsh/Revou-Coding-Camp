@@ -1,0 +1,109 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Belajar HTML & CSS Tailwind - RevoU </title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+    </head>
+    <body>
+        <p class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-6 bg-yellow-100"  >Hello World!</p>
+        <hr/>
+        <p>Halo, Nama saya <br/> Ferdi.</p> 
+        <!-- ini komentar untuk baris ini pakai c -->
+        <h1>ini Heading 1</h1>
+        <h2>ini Heading 2</h2>
+        <h3>ini Heading 3</h3>
+        <h4>ini Heading 4</h4>
+        <h5>ini Heading 5</h5>
+        <h6>ini Heading 6</h6>
+        <p>Teks ini ada <b>bold</b>nya, <i>italic</i>nya.</p>
+        <p>Ini tulisan yang ke <sub> bawah </sub> dan ke <sup> atas </sup></p>
+
+        <h1>Bullet Point</h1>
+        <ul type="disc">
+            <!-- unordered list -->
+            <li>Pisang<p>Pisang adalah buah-buahan</p></li>
+            <li>Jeruk<p>Jeruk adalah buah-buahan</p></li>
+            <li>Apel<p>Apel adalah buah-buahan</p></li>
+        </ul>
+
+        <h1>Urutan Angka</h1>
+        <p>berikut adalah cara menjalankan HTML pakai vscode</p>
+        <!-- ordered list -->
+        <ol type="1">
+            <li>Buka Visual Studio Code</li>
+            <li>Tambahkan ekstensi Live Server</li>
+            <li>buat file HTML baru</li>
+            <li>isi file index.html</li>
+            <li>Buka file HTML di browser</li>
+        </ol>
+
+        <h1>Tabel</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alfread</td>
+                    <td>Alfread@gmail.com</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Budi</td>
+                    <td>budi@gmail.com</td>
+                    <td>Indonesia</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Gambar</h1>
+        <img src="/day-2/images/logo-revou.png" width="200" alt="Logo RevoU"/>
+        <img src="https://www.honda-ikb.com/asset/upload/product/img/wwn_81d825198e9b009ab79fd54c109f73f4.png" alt="mobil merah" width="200"/>
+
+        <h1>Link</h1>
+        <a href="https://www.revou.co" target="_blank">Ini adalah link RevoU</a>
+        <a href="./second.html">Second Page</a>
+        <a href="#Lorem">Lorem</a>
+
+        <h1>Form Contact us</h1>
+
+        <form action="">
+            <label>Name:</label><br>
+            <input type="text" placeholder="Masukkan nama Anda"><br>
+
+            <label>Umur:</label><br>
+            <input type="number" min="0" max="120" placeholder="19"><br>
+
+            <label>Password:</label><br>
+            <input type="password"><br>
+
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" name="gender" value="male"> Laki-laki<br>
+            <input type="radio" name="gender" value="female"> Perempuan<br>
+
+            <label>Makanan Favorit:</label><br>
+            <select>
+                <option value="pizza">Pizza</option>
+                <option value="sushi">Sushi</option>
+                <option value="burger">Burger</option>
+            </select><br>
+
+            <label>Komentar:</label><br>
+            <textarea rows="5" cols="30" placeholder="Tulis komentar Anda di sini..."></textarea><br>
+
+            <input type="checkbox" name="subscribe" value="yes"> Saya setuju dengan syarat dan ketentuan yang berlaku<br>
+
+            <input type="submit" value="Submit">
+            <button type="submit">Send</button>
+        </form>
+
+        <p id="Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptate cupiditate eius iure animi accusamus, consequatur alias cumque totam iusto eveniet ratione sit. Minus atque odio iure labore ipsa eum.</p>
+    </body>
+    </html>
