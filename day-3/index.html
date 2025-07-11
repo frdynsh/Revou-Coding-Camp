@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo - Ferdi</title>
-   
-    <!-- CSS External -->
-    <link rel="stylesheet" href="/day-3/css/style.css">
+    <title>Belajar Javascript - RevoU</title>
 </head>
 <body>
-    <!-- Hero Website -->
-    <header>
-        <h1>To do list</h1>
-    </header>
+    <!-- INTERNAL Javascript -->
+        <!-- Embed -->
+        <h1>Belajar Javascript - RevoU</h1>
+        <button onclick="alert('Hello World!')">Klik Saya</button>
 
-    <main>
-        
-    </main>
 
-    <footer>
-        <p>&copy; 2025 Ferdi. All rights reserved.</p>
-    </footer>
+        <!-- Inline -->
+        <h2 id="judul">Belajar Javascript - RevoU</h2>
+        <button onclick="ubahTeks()">Klik Saya</button>
+
+        <script>
+            function ubahTeks() {
+                document.getElementById("judul").innerHTML = "Selamat Datang di RevoU!";
+            }
+        </script>
+
+
+    <!-- EKSTERNAL Javascript -->
+        <!-- JS yang di file terpisah -->
+        <h3 id="judul2">Belajar Javascript - RevoU</h3>
+
+        <script src="script.js"></script>
 </body>
 </html>
